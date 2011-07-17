@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""
+"http://www.w3.org/TR/html4/strict.dtd">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Fidget Test</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css" media="screen">
+		body {margin: 0; padding: 0; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px;}
+		.outer {margin: 10px; border: 1px solid #CECECE;}
+		.for_fidget {padding: 0;}
+	</style>
+</head>
+<body style='margin: 0; padding: 0;'>
+	<div class='outer' style='width: 125px; height: 100px;'> 
+		<div class='for_fidget'>
+			In computer science, a binary search or half-interval search algorithm finds the position of a specified value (the input "key") in an array sorted into order on the values of the key.
+		</div>
+	</div>
+	<div class='outer' style='width: 250px; height: 100px;'> 
+		<div class='for_fidget'>
+			In computer science, a binary search or half-interval search algorithm finds the position of a specified value (the input "key") in an array sorted into order on the values of the key.
+		</div>
+	</div>
+	<div class='outer' style='width: 500px; height: 300px;'> 
+		<div class='for_fidget'>
+			In computer science, a binary search or half-interval search algorithm finds the position of a specified value (the input "key") in an array sorted into order on the values of the key.
+		</div>
+	</div>
+	<div style='font-size: 12px; margin: 10px;'>Text from: <a href='http://en.wikipedia.org/wiki/Binary_search_algorithm'>http://en.wikipedia.org/wiki/Binary_search_algorithm</a></div>
+	<script src="fidget.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		Fidget.GLOBAL_OPTIONS = {'LH_MIN': 1.15};
+		$('.for_fidget').each(function (i, el) {Fidget(el);});
+	</script>
+</body>
